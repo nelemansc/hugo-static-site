@@ -1,38 +1,64 @@
 baseURL = "https://www.cassidynelemans.com/"
-# include content marked as draft
-buildDrafts = false
-# include content with publishdate in the future
-buildFuture = false
-# include content already expired
-buildExpired = false
-# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
-relativeURLs = true
-disableRSS = true
-enableRobotsTXT = true
-editor = "nano"
-languageCode = "en"
-language = "en"
-theme = "vncnt-hugo"
-title = "Cassidy Nelemans · Coming Soon"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
 
-[blackfriday]
-  extensions = ["hardLineBreak"]
+# Plugins
+[params.plugins]
 
-[permalinks]
-  fixed = ":title/"
-  posts = "posts/:slug/"
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Education"
+  URL = "#education"
+  weight = 3
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Education"
+  URL = "#education"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 4
+
 
 [params]
-  author = "Cassidy Nelemans"
-  email = "nelemansc@gmail.com"
-  description = "Coming Soon"
-  bio = "DevOps Engineer. Bacon Connoisseur."
-  avatar = "img/avatar.jpg"
-  favicon = "img/favicon.ico"
-  error404 = "There is no such page."
 
-  [params.contact]
-    github = "https://github.com/nelemansc"
-    instagram = "https://instagram.com/nelemansc"
-    twitter = "https://twitter.com/sidynele"
-    linkedin = "https://www.linkedin.com/in/nelemansc"
+  [params.logo]
+    text1 = "C N"
+    text2 = ""

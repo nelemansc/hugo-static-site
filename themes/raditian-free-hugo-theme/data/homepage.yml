@@ -1,0 +1,92 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Cassidy."
+  subtitle: "Operations Engineer"
+  description: "I'm a Minnesota native with a hankering for tinkering with new technology, a novice woodworker, a dog dad, and a bacon fanatic. I work at <a target='_blank' href='https://clockwork.com/'>Clockwork</a>, a tech agency in Minneapolis."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: 'mailto:nelemansc@gmail.com'
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/nelemansc"
+
+    - icon: "github"
+      URL: "https://github.com/nelemansc"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/sidynele"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/nelemansc/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/nelemansc/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst 
+    vestibulum rhoncus est pellentesque. Neque sodales ut etiam sit. Pellentesque 
+    habitant morbi tristique senectus et netus et. Donec et odio pellentesque diam.
+    </p>
+    <p class="lead">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst
+    vestibulum rhoncus est pellentesque. Neque sodales ut etiam sit. Pellentesque
+    habitant morbi tristique senectus et netus et. Donec et odio pellentesque diam.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/nelemansc"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Wisconsin - Stout"
+      year: "2006-2010"
+      degree: "Bachelor of Business Administration & Information Technology"
+
+    - university: "Certifications"
+      year: ""
+      degree: "AWS Solutions Architect, Cisco CCNA"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "10+ years working in technology and constantly adapting to change. I design & deploy secure, highly-available, & resiliant cloud infrastructure using infrastructure-as-code."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/nelemansc/"
+
+  items:
+    - title: "Operations Engineer"
+      company: "Clockwork"
+      duration: "Mar 2016 - Present"
+
+    - title: "System Administrator"
+      company: "Regis Corporation"
+      duration: "Aug 2013 - Mar 2016"
+
+    - title: "Salon Systems Support Specialist"
+      company: "Regis Corporation"
+      duration: "Jun 2012 - Aug 2013"
