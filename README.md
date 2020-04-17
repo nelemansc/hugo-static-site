@@ -23,8 +23,8 @@ The Github Action associated with the repo does the following:
 - Invalidates the Cloudformation cache so the newest version is served up by the CDN
 
 The following secrets need to be configured in the repository settings:
-- AWS_ACCESS_KEY_ID
-- AWS_SECRET_ACCESS_KEY
-- AWS_REGION
-- AWS_S3_BUCKET
-- DISTRIBUTION_ID (the Cloudfront distribution ID)
+- `AWS_ACCESS_KEY_ID`
+- `AWS_SECRET_ACCESS_KEY`
+- `AWS_REGION`
+- `AWS_S3_BUCKET`
+- `DISTRIBUTION_ID` (the Cloudfront distribution ID)
