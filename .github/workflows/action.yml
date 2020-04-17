@@ -7,6 +7,7 @@ on:
 
 jobs:
   deploy:
+    name: Deploy to S3
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -17,21 +18,13 @@ jobs:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
-        SOURCE_DIR: 'public'      # optional: defaults to entire repository
-
-
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout
-      uses: actions/checkout@master
-
-    - name: invalidate cloudfront distribution and wait for completion
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+        SOURCE_DIR: 'public'
+    - name: Invalidate Cloudfront distribuction
       uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
       env:
         DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
         PATHS: '/*'
-        AWS_REGION: 'us-east-1'
+        AWS_REGION: ${{ secrets.AWS_REGION }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
