@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout master
       uses: actions/checkout@master
+    - name: Build static assets with hugo
+      uses: jakejarvis/hugo-build-action@master
     - name: Sync static assets to S3
       uses: jakejarvis/s3-sync-action@master
       with:
