@@ -21,7 +21,6 @@ jobs:
         SOURCE_DIR: 'public'      # optional: defaults to entire repository
 
 
-jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
