@@ -1,9 +1,9 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Cassidy."
+  title: "Hi, I’m Cassidy."
   subtitle: "Operations Engineer"
-  description: "I'm a Minnesota native with a hankering for tinkering with new technology, a novice woodworker, a dog dad, and a bacon fanatic. I work at <a target='_blank' href='https://clockwork.com/'>Clockwork</a>, a tech agency in Minneapolis."
+  description: "I'm a Minnesota native that loves tinkering with new technology, woodworking, my dog <a target='_blank' href='https://instagram.com/golden_zoey_mn'>Zoey</a>, and a nice thick-cut bacon. I work at <a target='_blank' href='https://clockwork.com/'>Clockwork</a>, a digital agency in Minneapolis."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -34,7 +34,7 @@ showcase:
 # about
 about:
   enable: true
-  title: "Who am I?"
+  title: "About Me"
   content: '<p class="lead">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst 
@@ -72,7 +72,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "10+ years working in technology and constantly adapting to change. I design & deploy secure, highly-available, & resiliant cloud infrastructure using infrastructure-as-code."
+  description: "10+ years working in technology and constantly adapting to change. I design & deploy secure, highly-available, & resilient cloud infrastructure using infrastructure-as-code."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
