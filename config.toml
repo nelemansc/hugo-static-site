@@ -1,6 +1,6 @@
 baseURL = "https://www.cassidynelemans.com/"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
+theme = "raditian"
 
 # Plugins
 [params.plugins]
