@@ -28,3 +28,4 @@ The following secrets need to be configured in the repository settings:
 - `AWS_REGION`
 - `AWS_S3_BUCKET`
 - `DISTRIBUTION_ID` (the Cloudfront distribution ID)
+
