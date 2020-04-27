@@ -80,7 +80,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "assets/resume.pdf"
+    URL: "https://www.cassidynelemans.com/assets/resume.pdf"
 
   items:
     - title: "Operations Engineer"
