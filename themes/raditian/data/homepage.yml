@@ -77,6 +77,10 @@ experience:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/nelemansc/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "assets/resume.pdf"
 
   items:
     - title: "Operations Engineer"
