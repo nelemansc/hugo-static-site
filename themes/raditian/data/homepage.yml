@@ -112,7 +112,7 @@ client_and_work:
         _2x: "img/works/terraform_2x.jpg"
       is_even: true
 
-    - title: "Hugo"
+    - title: "Static Site Build"
       description: "The static assets for this site are built using an open-source static site generator called <a target='_blank' href='https://gohugo.io/'>Hugo</a>. Any commit to master triggers a <a target='_blank' href='https://github.com/nelemansc/hugo-static-site/actions'>Github Action</a> to generate the static assets, upload them to S3, and invalidate the Cloudfront cache."
       button:
         icon: "icon-arrow-right"
@@ -124,7 +124,7 @@ client_and_work:
       is_even: false
 
     - title: "Markdown Resume"
-      description: "I ❤︎ Markdown so my resume is written in Markdown syntax. Any commit to master triggers a <a target='_blank' href='https://github.com/nelemansc/markdown-resume/actions'>Github Action</a> to convert the resume to a pdf, upload the pdf to the S3 bucket where the static site assets are stored, and invalidate the Cloudfront cache. You can download my resume <a target='_blank' href='https://www.cassidynelemans.com/assets/resume.pdf'>here</a>."
+      description: "I ❤︎ Markdown so my resume is written in Markdown syntax. Any commit to master triggers a <a target='_blank' href='https://github.com/nelemansc/markdown-resume/actions'>Github Action</a> to convert the resume to a pdf, upload the pdf to the S3 bucket, and invalidate the Cloudfront cache. You can view my resume <a target='_blank' href='https://www.cassidynelemans.com/assets/resume.pdf'>here</a>."
       button:
         icon: "icon-arrow-right"
         btnText: "Github Repo"
