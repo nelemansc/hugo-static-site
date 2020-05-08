@@ -124,7 +124,7 @@ client_and_work:
       is_even: false
 
     - title: "Markdown Resume"
-      description: "Even more filler text"
+      description: "I ❤︎ Markdown so my resume is written in Markdown syntax. Any commit to master triggers a <a target='_blank' href='https://github.com/nelemansc/markdown-resume/actions'>Github Action</a> to convert the resume to a pdf, upload the pdf to the S3 bucket where the static site assets are stored, and invalidate the Cloudfront cache. You can download my resume <a target='_blank' href='https://www.cassidynelemans.com/assets/resume.pdf'>here</a>."
       button:
         icon: "icon-arrow-right"
         btnText: "Github Repo"
