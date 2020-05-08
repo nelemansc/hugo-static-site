@@ -130,7 +130,7 @@ client_and_work:
         btnText: "Github Repo"
         URL: "https://github.com/nelemansc/markdown-resume"
       image:
-        x: ""
-        _2x: ""
+        x: "img/works/resume.jpg"
+        _2x: "img/works/resume_2x.jpg"
       is_even: true
 
