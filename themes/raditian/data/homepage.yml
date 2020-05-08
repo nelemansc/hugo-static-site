@@ -66,7 +66,7 @@ education:
 
     - university: "Certifications"
       year: ""
-      degree: "AWS Solutions Architect, Cisco CCNA"
+      degree: "<a target='_blank' href='https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-10-25&ci=AWS00349475'>AWS Solutions Architect</a>, Cisco CCNA"
 
 # experience
 experience:
@@ -94,3 +94,43 @@ experience:
     - title: "Salon Systems Support Specialist"
       company: "Regis Corporation"
       duration: "Jun 2012 - Aug 2013"
+
+# Client & Work
+client_and_work:
+  title: "Walk the Talk"
+  enable: true
+
+  works:
+    - title: "Infrastructure as Code"
+      description: "This site is deployed via <a target='_blank' href='https://www.terraform.io/'>Terraform</a>. It uses Route53 for DNS, Lambda@Edge for HTTP security headers, Cloudfront as a CDN and HTTPS layer, and S3 for static asset storage."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/nelemansc/terraform-static-site"
+      image:
+        x: "img/works/terraform.jpg"
+        _2x: "img/works/terraform_2x.jpg"
+      is_even: true
+
+    - title: "Hugo"
+      description: "The static assets for this site are built using an open-source static site generator called <a target='_blank' href='https://gohugo.io/'>Hugo</a>. Any commit to master triggers a <a target='_blank' href='https://github.com/nelemansc/hugo-static-site/actions'>Github Action</a> to generate the static assets, upload them to S3, and invalidate the Cloudfront cache."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/nelemansc/hugo-static-site"
+      image:
+        x: "img/works/hugo.jpg"
+        _2x: "img/works/hugo_2x.jpg"
+      is_even: false
+
+    - title: "Markdown Resume"
+      description: "Even more filler text"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/nelemansc/markdown-resume"
+      image:
+        x: ""
+        _2x: ""
+      is_even: true
+
