@@ -102,7 +102,7 @@ client_and_work:
 
   works:
     - title: "Infrastructure as Code"
-      description: "This site is deployed via <a target='_blank' href='https://www.terraform.io/'>Terraform</a>. It uses Route53 for DNS, Lambda@Edge for HTTP security headers, Cloudfront as a CDN and HTTPS layer, and S3 for static asset storage."
+      description: "This site is deployed via <a target='_blank' href='https://www.terraform.io/'>Terraform</a>. It uses Route53 for DNS, Lambda for HTTP security headers, Cloudfront as a CDN and HTTPS layer, and S3 for static asset storage."
       button:
         icon: "icon-arrow-right"
         btnText: "Github Repo"
