@@ -1,6 +1,7 @@
 baseURL = "https://www.cassidynelemans.com/"
 languageCode = "en-us"
 theme = "raditian"
+enableRobotsTXT = "true"
 
 # Plugins
 [params.plugins]
