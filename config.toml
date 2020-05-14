@@ -27,35 +27,24 @@ enableRobotsTXT = "true"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.header]]
   name = "Education"
   URL = "#education"
-  weight = 3
+  weight = 2
 
   [[menu.header]]
   name = "Experience"
   URL = "#experience"
-  weight = 4
-
-
-  [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+  weight = 3
 
   [[menu.footer]]
   name = "Education"
   URL = "#education"
-  weight = 3
+  weight = 2
 
   [[menu.footer]]
   name = "Experience"
   URL = "#experience"
-  weight = 4
+  weight = 3
 
 
 [params]
