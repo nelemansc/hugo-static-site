@@ -19,7 +19,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: 'mailto:nelemansc@gmail.com'
+    URL: "mailto:nelemansc@gmail.com?subject=Let's chat"
 
   socialLinks:
     - icon: "linkedin"
