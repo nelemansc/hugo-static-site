@@ -14,7 +14,7 @@ showcase:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase_2x.png"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/showcase/showcase-mobile.png"
 
   button:
     icon: "icon-mail-fill"
