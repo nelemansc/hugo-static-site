@@ -140,3 +140,16 @@ client_and_work:
         _2x: "img/works/resume_2x.jpg"
       is_even: true
 
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    action: "https://api.cassidynelemans.com/contact/"
+    method: "POST"
+    name: "Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
