@@ -1,5 +1,7 @@
 {{ if .Site.Data.homepage.contact.enable }}
 <section id="contact" class="section section--contact pt-0">
+ <script src='{{ "js/library/jquery-3.5.1.min.js" | absURL }}'></script>
+ <script src='{{ "js/submitToAPI.js" | absURL }}'></script>
     <div class="container">
         <div class="contact">
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
@@ -8,27 +10,27 @@
                     <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="name"
+                                <input type="text" name="name" id="name" class="form-control"
                                        placeholder="{{ .Site.Data.homepage.contact.form.name }}"/>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="email"
+                                <input type="text" name="email" id="email" class="form-control"
                                        placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <textarea name="" id="message"
+                                <textarea name="message" id="message" class="form-control"
                                           cols="30" rows="3" placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="button"  onClick="submitToAPI(event)" class="btn btn-primary">
                                     <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
                                     {{ .Site.Data.homepage.contact.button.btnText }}
                                 </button>
-                            </div>
+			    </div>
                         </div>
                     </form>
                 </div>

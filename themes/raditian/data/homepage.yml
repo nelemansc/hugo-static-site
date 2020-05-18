@@ -142,11 +142,11 @@ client_and_work:
 
 # contact
 contact:
-  enable: false
+  enable: true
   title: "Contact"
   form:
     action: "https://api.cassidynelemans.com/contact/"
-    method: "POST"
+    method: "post"
     name: "Name"
     email: "Email Address"
     message: "Type Your Message Here"
