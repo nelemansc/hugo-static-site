@@ -142,7 +142,7 @@ client_and_work:
 
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact"
   form:
     action: "https://api.cassidynelemans.com/contact/"
