@@ -3,14 +3,14 @@ name: Upload Website
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
     name: Deploy website
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout master
+    - name: Checkout main
       uses: actions/checkout@master
     - name: Build static assets with hugo
       uses: jakejarvis/hugo-build-action@master
