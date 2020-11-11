@@ -20,7 +20,7 @@ The Github Action associated with the repo does the following:
 - checks out the repo
 - Runs `hugo -D` to generate the static assets
 - Uploads the static assets to S3
-- Invalidates the Cloudformation cache so the newest version is served up by the CDN
+- Invalidates the Cloudfront cache so the newest version is served up by the CDN
 
 The following secrets need to be configured in the repository settings:
 - `AWS_ACCESS_KEY_ID`
